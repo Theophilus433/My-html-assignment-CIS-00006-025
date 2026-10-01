@@ -1,0 +1,189 @@
+<html lang="en">
+<head>
+ <title>PATIENT REGISTRATION FORM</title>
+</head>
+<body>
+ <frame>
+ <display><font color="Blue"><font size="6"><b>PATIENT REGISTRATION FORM</b></font></font></display>
+     <div class="container">
+         <p>
+ <display><font color="Blue"><font size="5">Date</font></font></display>
+ <input type="date" name="date"  value="" maxlength="10"/>
+ <br></br>
+ <p>
+ <display><font color="Blue"><font size="5">Time</font></font></display>
+ <input type="time" name="time"  value="" maxlength="10"/>
+ <br></br>
+ </p>
+ <p>
+ <display><font color="Blue"><font size="5">Patient name</font></font></display>
+ <input type="text" name="patient name"  value="" maxlength="30" placeholder="e.g Mercylinah Mung'au"/>
+ </p>
+ <br></br>
+ <p>
+ <display><font color="Blue"><font size="5">Patient national ID</font></font></display>
+ <input type="text" name="national ID" value="" maxlength="12" placeholder="e.g.326..."/>
+ </p>
+ <br></br>
+ <p>
+ <display><font color="Blue"><font size="5">Date of Birth</font></font></display>
+ <input type="date" name="date of birth" value="" maxlength="10" placeholder="e.g.1/1/2010"/>
+ </p>
+ <br></br>
+ <p>
+ <display><font color="Blue"><font size="5">Patient phone number</font></font></display>
+ <input type="text" name="phone number" value="" Max length="10" placeholder="e.g. 0720..."/>
+ </p>
+ <br></br>
+ <display><font color="Blue"><font size="5">Patient address</font></font></display>
+ <p>
+ <input type="text" name="Address" value=""maxlength ="20" placeholder ="e.g. P.O BOX 1-101">
+ </p>
+ <br></br>
+ <p>
+ <display><font color="Blue"><font size="5">Select gender</font></font></display>
+ <br/>
+ <p><input type="radio" name="gender" id="" value="male" checked="checked"> male</p>
+ <p><input type="radio" name="gender" id="" value="female" > female</p>
+ </p>
+ <br></br>
+ <p>
+ <display><font color="Blue"><font size="5">Marital status</font></font></display>
+ <br />
+ <p><input type="radio" name="service" value="married"" checked="checked" />Married </p>
+ <p><input type="radio" name="service" value="single" /> Single</p>
+ <p><input type="radio" name="service" value="Divorced"/> Divorced</ <p><input type="radio" name="service" value="Deceased"/> Deceased</p>
+ </p>
+ <br></br>
+ <p>
+ <display><font color="Blue"><font size="5">Next of kin</font></font></display>
+<input type="text" name="next of kin" value=""maxlength ="20" placeholder ="name e.g. Mary Wekesa">
+<input type="text" name="relationship" value=""maxlength ="20"placeholder ="who is he/she to you? e.g.Mother">
+<input type="text" name="Address" value=""maxlength ="20"placeholder ="His/her address e.g. P.O BOX 1-101">
+ </p>
+ <br></br>
+ <p>
+ <display><font color="Blue"><font size="5">Patient H ID</font></font></display>
+ <input type="text" name="patient ID" value=""maxlength ="15"placeholder="e.g. PT-233/026">
+ </p>
+ <br></br>
+ <p>
+ <display><font color="Blue"><font size="5">Health status (what cured)</font></display>
+ <select name="Health status"
+    <option>Diabetes</option>
+    <option > </option>
+    <option>Hypertension</option>
+    <option>Allergies</option>
+    <option>Diabetes</option>
+    <option>Unknown</option>
+ </select>
+ </p>
+ <p>
+ <textarea name="health status" rows="3"placeholder ="Others"></textarea>
+ </p>
+ <br></br>
+ <p>
+ <display><font color="Blue"><font size="5">Weight(Kgs)</font></font></display>
+ <input type="interger" name="weight" value=""maxlength="5" placeholder ="e.g. 45"/>
+ </p>
+ </div>
+ <br></br>
+ </frame>
+  
+  <br>
+    </br>
+    <display><font color="Blue"><font size="6"><b>PATIENT MEDICAL FORM</b></font></font></display>
+    <div class="container">
+   <p1>
+       <table border="3">
+ <display><font color="Blue"><font size="5">Patients form</font></font></display>
+ <tr>
+ <th scope="col">Patient</th>
+ <th>Day records</th>
+ </tr>
+ <tr>
+ <th scope="row"><input type="text"name="patient ID"value=""maxlength="10"placeholder="e.g PT-233/026"></th>
+ <td><input type="text"name="patient record" value=""maxlength="20"placeholder ="e.g. disease cured"></td>
+ </tr>
+ <tr>
+ <th scope="row"><input type="text"name="patient ID"value=""maxlength="10"placeholder="e.g PT-233/026"></th>
+ <td><input type="text"name="patient record" value=""maxlength="20"placeholder ="e.g. disease cured"></td>
+ </tr>
+ <tr>
+ <th scope="row"><input type="text"name="patient ID"value=""maxlength="10"placeholder="e.g PT-233/026"></th>
+ <td><input type="text"name="patient record" value=""maxlength="20"placeholder ="e.g. disease cured"></td>
+ </tr>
+ <tr>
+ <th scope="row"><input type="text"name="patient ID"value=""maxlength="10"placeholder="e.g PT-233/026"></th>
+ <td><input type="text"name="patient record" value=""maxlength="20"placeholder ="e.g. disease cured"></td>
+ </tr>
+ </table>
+ </p1>
+<style>
+    body { font-family:Times new roman; padding: 20px; background:grey; }
+    .container { max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+    h2 { color: red; border-left: padding-left: 10px; }
+    table { width: 100%; border-collapse: collapse; margin: 15px 0 30px 0; }
+    th, td { padding: 12px; text-align: left; }
+    th { background: grey; color: white; }
+    td:first-child { background: white; font-weight: bold; width: 30%; }
+    input, textarea { width: 95%; padding: 8px; border: border-radius: 5px; }
+    textarea { resize: vertical; }
+</style>
+</head>
+<body>
+    PATIENT MEDICAL RECORDS
+    (More details)
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Patient ID</td>
+                    <td><input type="text" name="patient_id" placeholder="Enter Patient ID"></td>
+                </tr>
+                <tr>
+                    <td>Doctor attended</td>
+                    <td><textarea name="patient_record" rows="5" placeholder="Enter full names and His/Her National ID"></textarea></td>
+                </tr>
+                 <tr>
+                    <td>Attended diseases</td>
+                    <td><textarea name="patient_record" rows="5" placeholder="Enter all attended diseases"></textarea></td>
+                </tr>
+                 <tr>
+                    <td>Dose prescription</td>
+                    <td><textarea name="patient_record" rows="5" placeholder="Enter dose given and it's prescription"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:center; background:white;">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+      <br>
+ <display><font color="Blue"><font size="5">Referral Form</font></font></display>
+     <p><input type="radio" name="service" value="refered"" checked="checked" />Refered </p>
+     <p>
+     <textarea name="refered to?" rows="3"placeholder ="If Refered, where were you refered to, on which disease(s) and the reason for referal "></textarea>
+     </p>
+     <p><input type="radio" name="service" value="Not refered" />Not refered</p>
+     </p>
+     </br>
+     <br>
+     <p>
+ <display><font color="Blue"><font size="5">Charges occured</font></font></display>
+     <p><input type="radio" name="service" value="Paid"" checked="checked" />Paid</p>
+     <p>
+     <textarea name="Charged?" rows="3"placeholder ="If you paid, indicate the amount paid and on what "></textarea>
+     </p>
+     <p>
+       <input type="radio" name="service" value="Free" />Free</p>
+     </p>
+     </br>
+     <br>
+     <display><font color="Blue"><font size="5">Doctor's recommendations</font></font></display>
+    <textarea name="recommend" rows="3"placeholder ="Doctor's recommendations"></textarea>
+        </div>
+    </form>
+</body>
+</html>
